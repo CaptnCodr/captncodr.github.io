@@ -5,5 +5,5 @@ RewriteCond %{HTTP_HOST} ^constantintews\.de$ [NC]
 RewriteRule ^(.*)$ http://www.constantintews.de/$1 [L,R=301]
 </IfModule>
 
-ErrorDocument 404 index.html
-ErrorDocument 403 index.html
+ErrorDocument 404 "https://www.constantintews.de"
+ErrorDocument 403 "https://www.constantintews.de"
