@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^constantintews\.de$ [NC]
+RewriteRule ^(.*)$ http://www.constantintews.de/$1 [L,R=301]
+</IfModule>
+
+ErrorDocument 404 index.html
+ErrorDocument 403 index.html

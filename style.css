@@ -1,0 +1,55 @@
+html, body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: #efefef;
+}
+
+.head {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    margin-top: 14%;
+    color: #35363A;
+}
+
+.title {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    color: #35363A;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    html, body {
+        background-color: #35363A;
+    }
+
+    .head {
+        color: #efefef;
+    }
+
+    .title {
+        color: #efefef;
+    }
+}
+
+.chip .code {
+    float: right;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 8px;
+}
+
+main {
+    margin-top: 10%;
+}
+
+main a {
+    margin-bottom: 10px;
+}
+
+.instagram {
+    background-color: rgba(51, 103, 214, 0.9);
+    background: linear-gradient(to right, rgba(51, 103, 214, 1) 0%, rgba(51, 103, 214, 1) 10%, rgba(203, 67, 55, 1) 40%, rgba(244, 179, 0, 1) 65%, rgba(15, 157, 88, 1) 90%, rgba(15, 157, 88, 1) 100%);
+}
