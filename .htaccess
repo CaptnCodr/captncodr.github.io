@@ -1,8 +1,5 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^constantintews\.de$ [NC]
-RewriteRule ^(.*)$ http://www.constantintews.de/$1 [L,R=301]
+<IfModule mod_headers.c>
+  Header always set Permissions-Policy: interest-cohort=()
 </IfModule>
 
 ErrorDocument 404 "https://www.constantintews.de"
