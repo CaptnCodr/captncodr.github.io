@@ -40,5 +40,5 @@ jobs:
         uses: ShaunLWM/action-pushbullet@master
         env:
           PB_TOKEN: ${{ secrets.PB_TOKEN }}
-          PB_TITLE: Build (constantin-tews)
+          PB_TITLE: Website deployed
           PB_TEXT: Your project has been built and deployed.
