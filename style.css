@@ -19,6 +19,14 @@ html, body {
     color: #35363A;
 }
 
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #35363A;
+}
+
 @media (prefers-color-scheme: dark) {
 
     html, body {
@@ -30,6 +38,10 @@ html, body {
     }
 
     .title {
+        color: #efefef;
+    }
+
+    footer {
         color: #efefef;
     }
 }
