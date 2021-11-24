@@ -27,6 +27,11 @@ footer {
     color: #35363A;
 }
 
+.stackoverflow, .stackoverflow:hover, .stackoverflow:focus {
+    background-color: hsl(210, 8%, 97.5%);
+    color: hsl(27,90%,55%);
+}
+
 @media (prefers-color-scheme: dark) {
 
     html, body {
@@ -43,6 +48,10 @@ footer {
 
     footer {
         color: #efefef;
+    }
+
+    .stackoverflow, .stackoverflow:hover, .stackoverflow:focus {
+        background-color: hsl(0, 0%, 23%);
     }
 }
 
