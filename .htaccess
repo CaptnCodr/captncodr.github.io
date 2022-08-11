@@ -2,5 +2,5 @@
   Header always set Permissions-Policy: interest-cohort=()
 </IfModule>
 
-ErrorDocument 404 "https://www.constantintews.de"
-ErrorDocument 403 "https://www.constantintews.de"
+ErrorDocument 404 "https://captncodr.dev"
+ErrorDocument 403 "https://captncodr.dev"
