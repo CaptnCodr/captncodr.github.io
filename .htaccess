@@ -1,6 +1,0 @@
-<IfModule mod_headers.c>
-  Header always set Permissions-Policy: interest-cohort=()
-</IfModule>
-
-ErrorDocument 404 "https://captncodr.dev"
-ErrorDocument 403 "https://captncodr.dev"
