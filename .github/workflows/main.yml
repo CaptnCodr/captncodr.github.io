@@ -17,6 +17,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - name: Pushbullet Notification
         uses: ShaunLWM/action-pushbullet@master
         env:
