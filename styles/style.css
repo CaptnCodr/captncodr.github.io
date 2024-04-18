@@ -75,6 +75,11 @@ main a {
     background: linear-gradient(to right, rgba(51, 103, 214, 1) 0%, rgba(51, 103, 214, 1) 10%, rgba(203, 67, 55, 1) 40%, rgba(244, 179, 0, 1) 65%, rgba(15, 157, 88, 1) 90%, rgba(15, 157, 88, 1) 100%);
 }
 
+.mastodon {
+    background-color: #595aff;
+    color: white;
+}
+
 .linkedin, .linkedin:hover, .linkedin:focus {
     background-color: #0a66c2;
     color: white;
