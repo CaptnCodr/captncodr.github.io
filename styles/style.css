@@ -91,3 +91,11 @@ main a {
     line-height: 35px;
     background-color: #4c8eff;
 }
+
+.x {
+    border: #03a9f4 1px solid;
+}
+
+.x:hover, .x:focus {
+    border: #000 1px solid;
+}
