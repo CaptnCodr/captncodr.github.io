@@ -80,6 +80,11 @@ main a {
     color: white;
 }
 
+.bluesky, .bluesky:hover, .bluesky:focus {
+    background-color: #4ca2fe;
+    color: white;
+}
+
 .linkedin, .linkedin:hover, .linkedin:focus {
     background-color: #0a66c2;
     color: white;
